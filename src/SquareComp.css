@@ -1,0 +1,65 @@
+.square{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+
+  
+
+}
+.logo{
+    background-image: url('./pics/white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.squareWhiteLogo{
+    background-image: url('./pics/white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 3px;
+    
+}
+
+.squareLogo1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    background-image: url('./pics/barcelona.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 3px;
+
+}
+
+.squareLogo2{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    background-image: url('./pics/rialMadrid.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 3px;
+
+}
+
+.logo1{
+    background-image: url('./pics/barcelona.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.logo2{
+    background-image: url('./pics/rialMadrid.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
