@@ -14,7 +14,7 @@ class BoardComp extends Component {
 
     
 
-    getData = async (rowIndex, data) =>{
+    getLineData = async (rowIndex, data) =>{
         let board = this.state.board;
         board[rowIndex] = data.line;
         
@@ -98,7 +98,7 @@ class BoardComp extends Component {
         
 
         let lines = this.state.board.map((b, index) =>{
-            return <LineComp key={index} row={b} player1Turn={this.state.player1Turn} callback={data => this.getData(index, data)} />
+            return <LineComp key={index} row={b} player1Turn={this.state.player1Turn} callback={data => this.getLineData(index, data)} />
         })
         
                

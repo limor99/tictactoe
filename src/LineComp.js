@@ -8,7 +8,7 @@ class LineComp extends Component {
         this.state={line : [ 0, 0, 0 ], linePlayer1 : [ 0, 0, 0 ], linePlayer2 : [ 0, 0, 0 ]};
     }
 
-    getData = async (colIndex) =>{
+    getSquareData = async (colIndex) =>{
         let line = this.state.line;
         let linePlayer1 = this.state.linePlayer1;
         let linePlayer2 = this.state.linePlayer2;
@@ -31,7 +31,7 @@ class LineComp extends Component {
 
     render() {
         let col = this.props.row.map((r, index) =>{
-            return <SquareComp key={index} colIndex={index} player1Turn={this.props.player1Turn} callback={() => this.getData(index)} />
+            return <SquareComp key={index} colIndex={index} player1Turn={this.props.player1Turn} callback={() => this.getSquareData(index)} />
         })
        
         return (
